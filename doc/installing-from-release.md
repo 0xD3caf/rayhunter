@@ -44,7 +44,9 @@ Make sure you've got one of Rayhunter's [supported devices](./supported-devices.
 
 ## Troubleshooting
 
-* If you are having trouble installing Rayhunter and you're connecting to your device over USB, try using a different USB cable to connect the device to your computer. If you are using a USB hub, try using a different one or directly connecting the device to a USB port on your computer. A faulty USB connection can cause the Rayhunter installer to fail.
+* If you are having trouble installing Rayhunter and you're connecting to your device over USB, try using a different USB cable to connect the device to your computer. If you are using a USB hub, directly connect the device to a USB port on your computer. A faulty USB connection can cause the Rayhunter installer to fail.
+
+* When using the installer if you encounter a "Permission denied" error, run the command again using sudo.
 
 * You can test your device by enabling the test heuristic. This will be very noisy and fire an alert every time you see a new tower. Be sure to turn it off when you are done testing.  
 
